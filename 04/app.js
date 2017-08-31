@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2017/8/30.
  */
+//组件的生命周期实例
 var list=[];
 const database = {
     add(article){
