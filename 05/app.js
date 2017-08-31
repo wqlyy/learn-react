@@ -53,4 +53,4 @@ const Form = React.createClass({
     }
 });
 
-ReactDOM.render(<Form/>,document.getElementById('d1'))
+// ReactDOM.render(<Form/>,document.getElementById('d1'))
