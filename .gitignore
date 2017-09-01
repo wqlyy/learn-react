@@ -3,3 +3,7 @@
 .idea
 /bower_components/
 /node_modules/
+/demo01/node_modules/
+/flux/node_modules/
+/demo01/build/
+/flux/build.js
