@@ -5,7 +5,14 @@
 const EventEmitter = require('events').EventEmitter;
 
 class Store extends EventEmitter{
-    constructor(){
+    constructor(actions){
+        actions.on('call',action=>{
+            switch (action.actionType){
+                case 'add':
+                    this._add(action.name);
+                    break;
+            }
+        });
         super();
         this._list=[];
     }

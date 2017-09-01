@@ -5,8 +5,9 @@ const  React = require('react');
 const Store = require('./Store');
 const Actions = require('./Actions');
 
-const store = new Store();
-const actions = new Actions(store);
+const actions = new Actions();
+const store = new Store(actions);
+
 //Top Level component,container and controller-view ==>angular.controller
 class List extends React.Component{
 
